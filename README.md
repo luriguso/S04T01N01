@@ -96,29 +96,33 @@ Contributions are welcome! To contribute:
 
 ## 📡 **Available endpoints**
 
-### 1️⃣ HelloWorld with RequestParam (default = `UNKNOWN`)
-```http
-GET /HelloWorld
-GET /HelloWorld?name=MyName
-```
+### 1️⃣API HelloWorld 
 
-**Response:**
+**GET /HelloWorld**
+````
+Response:
+Hello, UNKNOWN. You are running a Maven project
+````
+
+**GET /HelloWorld?name=MyName**
 ```
+Response:
 Hello, MyName. You are running a Maven project
 ```
 
-### 2️⃣ HelloWorld with PathVariable (optional parameter)
+### 2️⃣API HelloWorld2
 ```http
 GET /HelloWorld2
 GET /HelloWorld2/MyName
 ```
 
-**Response:**
+**GET /HelloWorld2**
 ```
-Hello, my name. You are running a Maven project.
+Hello, UNKNOWN. You are running a Maven project.
 ```
+**GET /HelloWorld2/MyName**
 ```
-Hello, stranger. You are running a Maven project.
+Hello, MyName. You are running a Maven project.
 ```
 
 ---
