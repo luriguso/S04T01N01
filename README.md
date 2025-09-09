@@ -128,4 +128,10 @@ Hello, MyName. You are running a Maven project.
 ---
 
 ✍️ **Author**
-Exercise completed as part of **Sprint 4 - IT Academy**.
+🌐 [GitHub Profile](https://github.com/luriguso)
+
+---
+
+## 📝 License
+
+This project is part of an educational sprint and is not licensed for commercial use.
